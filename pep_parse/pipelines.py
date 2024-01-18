@@ -31,7 +31,7 @@ class PepParsePipeline:
         results_dir.mkdir(exist_ok=True)
         now_formatted = dt.datetime.now().strftime(DATETIME_FORMAT)
         file_name = f'status_summary_{now_formatted}.csv'
-        file_path = results_dir/file_name
+        file_path = results_dir / file_name
         with open(file_path, 'w', encoding='utf-8') as f:
             writer = csv.writer(f, dialect='unix')
             writer.writerows(status_summary)
