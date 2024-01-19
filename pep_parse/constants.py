@@ -6,6 +6,5 @@ RESULTS_DIR = 'results'
 DATETIME_FORMAT = '%Y-%m-%d_%H-%M-%S'
 
 PEP_DOMAIN = 'peps.python.org'
-ALLOWED_DOMAINS = (PEP_DOMAIN,)
-START_URLS = [f'https://{PEP_DOMAIN}/', ]
+ALLOWED_DOMAINS = [PEP_DOMAIN,]
 PEP_SPIDER_NAME = 'pep'

@@ -22,7 +22,7 @@ class PepParsePipeline:
     def close_spider(self, spider):
         """
         Сохраняет данные статусов PEP в таблицу.
-        Таблицу сохраняет в CSV-файл
+        Таблицу сохраняет в CSV-файл.
         """
         status_summary = [('Статус', 'Количество')]
         status_summary.extend(self.statuses.items())
