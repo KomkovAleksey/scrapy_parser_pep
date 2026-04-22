@@ -24,7 +24,7 @@ pluggy==1.0.0
 priority==1.3.0
 Protego==0.2.1
 py==1.11.0
-pyasn1==0.4.8
+pyasn1==0.6.3
 pyasn1-modules==0.2.8
 pycodestyle==2.8.0
 pycparser==2.21
