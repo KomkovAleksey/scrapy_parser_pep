@@ -9,7 +9,7 @@ h2==3.2.0
 hpack==3.0.0
 hyperframe==5.2.0
 hyperlink==21.0.0
-idna==3.3
+idna==3.7
 importlib-metadata==4.2.0
 incremental==21.3.0
 iniconfig==1.1.1
