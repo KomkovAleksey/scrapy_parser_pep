@@ -5,7 +5,7 @@ constantly==15.1.0
 cryptography==46.0.7
 cssselect==1.1.0
 flake8==4.0.1
-h2==3.2.0
+h2==4.3.0
 hpack==3.0.0
 hyperframe==5.2.0
 hyperlink==21.0.0
