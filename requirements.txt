@@ -39,7 +39,7 @@ Scrapy==2.15.0
 service-identity==21.1.0
 six==1.16.0
 toml==0.10.2
-Twisted==24.7.0rc1
+Twisted==26.4.0rc2
 typing_extensions==4.1.1
 w3lib==1.22.0
 zipp==3.19.1
